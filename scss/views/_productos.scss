@@ -1,0 +1,41 @@
+
+
+.product{  
+    cursor: pointer;
+    margin-bottom: 2rem;
+    
+}
+.product img{
+ transition: 0.3s all;
+ max-width: 200px;
+ 
+}
+.product:hover img{
+    opacity: 0.7;
+}
+.product .buy-btn{
+    width: 200px;
+    height: 38px;
+    font-size: 11px;
+    font-weight: 800;
+    border:none;
+ padding-right: 10px;
+ padding-left: 10px;
+    cursor: pointer;
+    background: #282727;
+    color: $blanco;
+}
+.product .buy-btn:hover{
+    background: $blanco;
+    color: black;
+}
+
+
+.product .p-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.product .p-precio{
+    font-size: 14px;
+    font-weight: bold;
+}

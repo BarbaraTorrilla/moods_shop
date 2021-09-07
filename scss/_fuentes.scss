@@ -1,0 +1,66 @@
+$fontFamily: 'Montserrat', sans-serif;
+
+*{
+   font-family: $fontFamily;
+}
+.iconos{
+           &__contenido {
+               &__img{
+                  &__p{
+                     font-size: 18px;
+                     font-weight: 800;
+                 }
+               }
+            }
+}
+
+   .footer{
+          &__container{
+             &__column1{
+                  &__info{
+                      font-size: 18px;
+                     font-weight: bold;
+                   }
+                   &__p{
+                     font-size: 12px;
+                    }
+                }
+           
+                  
+             &__column2 {
+                      &__info{
+                                 font-size: 18px;
+                                 font-weight: bold;
+                      }
+                }
+                  
+       
+             
+            }
+
+     &__container2{
+         font-size: 12px;
+         font-weight: bold;
+      }
+   }
+       .card__container{
+                      &__body{
+                           &__figure{
+
+                            &__content{
+                                 &__name {
+                                    &__title{
+                                       font-size: 20px;
+                                       font-weight: 500;
+                                    }
+                                 }
+                                   &__precio {
+                                      &__subtitle{
+                                        font-size: 14px;
+                                       }
+                                    }
+                              }
+                          }
+                        } 
+          }
+
