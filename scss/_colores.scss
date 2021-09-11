@@ -27,7 +27,10 @@ header{
     color: $negro;
 }
 .esconder-menu{
-    color: $blanco;
+    color: $negro;
+}
+menu:hover{
+    background-color: #fff;
 }
 .menu a:hover,
 .mostrar-menu:hover,

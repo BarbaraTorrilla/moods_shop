@@ -59,6 +59,7 @@ header{
         padding: 100px 0px;
         z-index: 100;
         transition: 0.8s;
+        background: $blanco;
 
     }
     .menu a{
@@ -68,8 +69,8 @@ header{
     }
     .esconder-menu{
         position: absolute;
-        top:40px;
-        right: 40px;
+        top:80px;
+        right: 5px;
     }
     #check:checked ~ .menu{
         right: 0;
