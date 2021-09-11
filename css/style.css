@@ -247,6 +247,10 @@ header {
   .esconder-menu {
     display: block;
   }
+  header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .menu {
     position: fixed;
     width: 100%;
