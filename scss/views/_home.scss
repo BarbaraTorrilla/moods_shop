@@ -20,11 +20,8 @@
                     border: none;
                 }
             }
-            
         }
 
-
-        
     }
 }
 .container-card{
@@ -103,8 +100,8 @@
                 }
      }
      .title-redes:after, .title-redes:before{
-        max-width: 200px;}
-    
+        max-width: 100px;
+    }
 }
 .container-redes{
     position: relative;
@@ -133,7 +130,7 @@
 .title-redes:after, .title-redes:before{
     flex-grow: 1;
     height: 1px;
-    width: 400px;
+    width: 300px;
     content:'\a0';
     background-color: black;
     position: relative;
