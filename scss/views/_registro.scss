@@ -1,6 +1,6 @@
 body{
     height: 100%;
-  
+margin: 0;
 }
 .login__container{
     height:100%;
@@ -18,7 +18,7 @@ body{
         align-items: center;
         text-align: center;
         padding-top:0.5rem;
-        background: #e6e6e6; 
+        background: #e6e6e6;
 
 
         &__title{
@@ -27,7 +27,6 @@ body{
             font-weight: 600;
             letter-spacing: 1px;
         }
-        
         &__inputs{
             display: flex;
             justify-content: space-around;

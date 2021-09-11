@@ -1,6 +1,6 @@
 header{
     height: 70px;
-    padding: 0 50px;
+    padding:0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,11 +39,12 @@ header{
 @media (max-width:760px){
 
     .logo{
-        width: 40%;
+        width: 30%;
     }
     .mostrar-menu,
     .esconder-menu{
         display: block;
+        margin-right: 40px;
     }
     header{
         justify-content: space-between;

@@ -191,7 +191,7 @@ th, td {
 
 header {
   height: 70px;
-  padding: 0 50px;
+  padding: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,11 +241,12 @@ header {
 
 @media (max-width: 760px) {
   .logo {
-    width: 40%;
+    width: 30%;
   }
   .mostrar-menu,
   .esconder-menu {
     display: block;
+    margin-right: 40px;
   }
   header {
     -webkit-box-pack: justify;
@@ -962,6 +963,7 @@ body {
 
 body {
   height: 100%;
+  margin: 0;
 }
 
 .login__container {
