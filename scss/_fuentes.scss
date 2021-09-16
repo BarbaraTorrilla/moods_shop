@@ -3,11 +3,23 @@ $fontFamily: 'Montserrat', sans-serif;
 *{
    font-family: $fontFamily;
 }
+.carrousel-text{
+   font-family: 'Bebas Neue', cursive;
+   letter-spacing: 3px;
+   font-size: 20px;
+   font-weight: normal;
+}
+.carrousel-text-title{
+   font-family: 'Bebas Neue', cursive;
+   font-weight: bold;
+   letter-spacing: 3px;
+   font-size: 28px;
+}
 .iconos{
            &__contenido {
                &__img{
                   &__p{
-                     font-size: 18px;
+                     font-size: 16px;
                      font-weight: 800;
                  }
                }

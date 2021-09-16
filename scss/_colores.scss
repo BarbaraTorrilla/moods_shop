@@ -7,48 +7,53 @@ $grey:#2f2a2a;
 
 body{background: $bgcolor;}
 
-@mixin header( $blanco,$negro) {
-    background-color:$blanco;
-    color: $negro;
-}
+// @mixin header( $blanco,$negro) {
+//     background-color:$blanco;
+//     color: $negro;
+// }
 
-header{
-   @include header($blanco,black); 
+// header{
+//    @include header($blanco,black);
+// }
+.carrousel-text{
+    color:white;
 }
-
+.carrousel-text-title{
+    color: white;
+}
+.carrousel-texto{
+    background: rgba(0,0,0,0.5);
+}
 header{
-    box-shadow: -1px 4px 10px 1px rgba(0,0,0,0.20),
-     -1px 4px 10px 1px rgba(0,0,0,0.20),
-     -1px 4px 10px 1px rgba(0,0,0,0.20);
+    background-color:#FFF;
+    box-shadow: 2px 10px 10px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 2px 10px 10px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 2px 10px 10px 0px rgba(0,0,0,0.12);
  }
- 
 .menu a{
-    background: $blanco;
     color: $negro;
 }
 .esconder-menu{
     color: $negro;
 }
-menu:hover{
-    background-color: #fff;
-}
+
 .menu a:hover,
 .mostrar-menu:hover,
 .esconder-menu:hover{
-   color:$greytext;
+   color:$background;
 }
 #iconos{
     background: $bgcolor;
     color: $negro;
 }
 .footer{
-    background:#EBEBEA;    
+    background:#EBEBEA;
     color: #6d6e71;
 
    &__container2{
         background:#2f2a2a ;
         color: $blanco;
-         
+
      }
 }
 .card{box-shadow: 0 2px 25px 0 rgba(30, 37, 63, 0.18) ;}
