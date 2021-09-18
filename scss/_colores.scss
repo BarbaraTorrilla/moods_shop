@@ -112,40 +112,57 @@ th, td { border-bottom: 1px solid black;}
                             background:$blanco;
                             color: $negro;
                         }
-                           
+
                     }
                 }
        }
 }
 
-
-
-
-
 .login__container{
-    &__info { 
-        
-        &__inputs{
-            &__input:hover{ border: 2px solid $background;}
+   
+    &__form { 
+       background: #e6e6e6;
 
-            &__login-btn{
-                color:$blanco;
-                background-color:#282727;
-            }
-            &__login-btn:hover{ 
-                background-color: $blanco; 
-                color: $negro;
-            }
-            &__p{ 
-                &__a{ color: #6d6e71;}
-                &__span{ color: #6d6e71;}
-            }
-        }
-    
-    
+         &__first{ 
+          background: linear-gradient(45deg, rgba(0,0,0,0.8),rgba(0,0,0,0.8)), grey;
+         }
+            &__sec{
+
+                &__title{
+                    color: $greytext;
+                 }
+                &__formulario{
+
+                     &__group * {
+                      border: 1px solid #e6e6e6;
+                             &__label{
+                                 border: 1px solid #e6e6e6;
+                                 color: $greytext;
+                             }
+                             input::placeholder,
+                             textarea::placeholder{
+                                color:$greytext;
+                            }
+                     }
+                     button{
+                         color:$blanco;
+                         background-color:#282727;
+                     }
+                     button:hover{
+                         background:$blanco;
+                         color: $negro;
+                     }
+
+                 }
+             }
     }
-
 }
+
+
+
+
+
+
 
 
 
