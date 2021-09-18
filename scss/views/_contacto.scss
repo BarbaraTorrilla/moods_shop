@@ -4,11 +4,11 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 50px;
+    margin-bottom: 50px;
     &__form{
-        width: 80vw;
         display: flex;
         justify-content: center;
-        margin: 50px 0;
+        margin: 10px 10px;
         &__first{
             display: flex;
             justify-content: center;
@@ -97,7 +97,7 @@
     &__form > * {
         width: 50%;
     }
-}
+} 
 
 @media  (max-width:760px){
     .contact__container{
