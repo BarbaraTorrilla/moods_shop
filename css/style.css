@@ -3,15 +3,11 @@ body {
 }
 
 .carrousel-text {
-  color: white;
+  color: #333;
 }
 
 .carrousel-text-title {
-  color: white;
-}
-
-.carrousel-texto {
-  background: rgba(0, 0, 0, 0.5);
+  color: #333;
 }
 
 header {
@@ -196,7 +192,7 @@ th, td {
 .carrousel-text {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
 }
 
@@ -204,7 +200,7 @@ th, td {
   font-family: 'Bebas Neue', cursive;
   font-weight: bold;
   letter-spacing: 3px;
-  font-size: 28px;
+  font-size: 35px;
 }
 
 .iconos__contenido__img__p {

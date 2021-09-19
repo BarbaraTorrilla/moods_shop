@@ -16,13 +16,10 @@ body{background: $bgcolor;}
 //    @include header($blanco,black);
 // }
 .carrousel-text{
-    color:white;
+    color:#333;
 }
 .carrousel-text-title{
-    color: white;
-}
-.carrousel-texto{
-    background: rgba(0,0,0,0.5);
+    color: #333;
 }
 header{
     background-color:#FFF;

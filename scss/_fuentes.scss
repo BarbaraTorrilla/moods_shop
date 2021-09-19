@@ -6,14 +6,14 @@ $fontFamily: 'Montserrat', sans-serif;
 .carrousel-text{
    font-family: 'Bebas Neue', cursive;
    letter-spacing: 3px;
-   font-size: 20px;
+   font-size: 22px;
    font-weight: normal;
 }
 .carrousel-text-title{
    font-family: 'Bebas Neue', cursive;
    font-weight: bold;
    letter-spacing: 3px;
-   font-size: 28px;
+   font-size: 35px;
 }
 .iconos{
            &__contenido {
@@ -37,17 +37,14 @@ $fontFamily: 'Montserrat', sans-serif;
                      font-size: 12px;
                     }
                 }
-           
-                  
+
              &__column2 {
                       &__info{
                                  font-size: 18px;
                                  font-weight: bold;
                       }
                 }
-                  
-       
-             
+
             }
 
      &__container2{
@@ -73,6 +70,6 @@ $fontFamily: 'Montserrat', sans-serif;
                                     }
                               }
                           }
-                        } 
+                        }
           }
 
