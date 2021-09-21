@@ -121,9 +121,8 @@
         &__form{
             flex-direction: column-reverse;
             width: 100vw;
-            &__first{
-                padding: 40px 0;
-            }
+           height: 100%;
+           
             &__sec{
                 &__title{
                     position: relative;
@@ -146,10 +145,10 @@
                         width: 80%;
                     }
                     button{
-                        width: 150px;
+                        width: 160px;
                         height: 40px;
                         position: relative;
-                        left: 60px;
+                        left: 90px;
                         margin-top: 10px;
                     }
                 }
